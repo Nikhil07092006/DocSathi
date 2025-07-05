@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DocSathi - Find Healthcare Professionals in India</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+ <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <h2 class="logo">DocSathi</h2>
+      <ul class="nav-links">
+        <li><a href="#homeSection">Home</a></li>
+        <li><a href="#aboutSection">About Us</a></li>
+        <li><a href="#searchSection">Search</a></li>
+        <li><a href="#contactSection">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <header id="homeSection">
+    <div class="container">
+      <h1>DocSathi</h1>
+      <p>Find the best healthcare professionals in India</p>
+    </div>
+  </header>
+
+  <!-- Search Section -->
+  <section id="searchSection" class="search-section">
+    <div class="container">
+      <h2>Find Your Doctor</h2>
+      <div class="search-form">
+        <div class="form-group">
+          <label for="specialization">Specialization</label>
+          <select id="specialization">
+            <option value="">All Specializations</option>
+            <option value="cardiologist">Cardiologist</option>
+            <option value="dermatologist">Dermatologist</option>
+            <option value="pediatrician">Pediatrician</option>
+            <option value="neurologist">Neurologist</option>
+            <option value="orthopedic">Orthopedic</option>
+            <option value="gynecologist">Gynecologist</option>
+            <option value="psychiatrist">Psychiatrist</option>
+            <option value="general">General Physician</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="city">City</label>
+          <select id="city">
+            <option value="">All Cities</option>
+            <option value="patna">Patna</option>
+            <option value="bhopal">Bhopal</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+            <option value="kolkata">Kolkata</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="pune">Pune</option>
+            <option value="ahmedabad">Ahmedabad</option>
+            <option value="jaipur">Jaipur</option>
+            <option value="lucknow">Lucknow</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="doctorName">Doctor Name</label>
+          <input type="text" id="doctorName" placeholder="Search by doctor name" />
+        </div>
+        <button id="searchBtn" class="search-btn">Search Doctors</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section class="results-section" id="resultsSection" style="display: none;">
+    <div class="container">
+      <div class="results-header">
+        <h3>Search Results</h3>
+        <span id="resultsCount" class="results-count">0 doctors found</span>
+      </div>
+      <div id="doctorResults" class="doctor-grid"></div>
+    </div>
+  </section>
+  <!-- Appointment Modal -->
+  <div id="appointmentModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Book Appointment</h2>
+      <div id="selectedDoctor" class="selected-doctor-info"></div>
+      <form id="appointmentForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="patientName">Full Name *</label>
+            <input type="text" id="patientName" required>
+          </div>
+          <div class="form-group">
+            <label for="patientAge">Age *</label>
+            <input type="number" id="patientAge" min="1" max="120" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="patientGender">Gender *</label>
+            <select id="patientGender" required>
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="patientPhone">Phone Number *</label>
+            <input type="tel" id="patientPhone" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="patientEmail">Email</label>
+          <input type="email" id="patientEmail">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="appointmentDate">Preferred Date *</label>
+            <input type="date" id="appointmentDate" required>
+          </div>
+          <div class="form-group">
+            <label for="appointmentTime">Preferred Time *</label>
+            <select id="appointmentTime" required>
+              <option value="">Select Time</option>
+              <option value="09:00">09:00 AM</option>
+              <option value="10:00">10:00 AM</option>
+              <option value="11:00">11:00 AM</option>
+              <option value="12:00">12:00 PM</option>
+              <option value="14:00">02:00 PM</option>
+              <option value="15:00">03:00 PM</option>
+              <option value="16:00">04:00 PM</option>
+              <option value="17:00">05:00 PM</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="medicalHistory">Medical History</label>
+          <textarea id="medicalHistory" rows="3" placeholder="Any relevant medical history, current medications, allergies"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="button" id="cancelAppointment" class="btn-secondary">Cancel</button>
+          <button type="submit" class="btn-primary">Book Appointment</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Success Modal -->
+  <div id="successModal" class="modal">
+    <div class="modal-content success-modal">
+      <div class="success-icon">✓</div>
+      <h2>Appointment Booked Successfully!</h2>
+      <div id="appointmentDetails" class="appointment-details"></div>
+      <button id="closeSuccess" class="btn-primary">Close</button>
+    </div>
+  </div>
+   <!-- About Us Section -->
+  <section id="aboutSection" class="about-section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We help you connect with trusted doctors across India. Search by specialization, city, or doctor name, and book appointments with ease.</p>
+    </div>
+  </section>
+   <section id="contactSection" class="contact-section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: support@DocSathi.in</p>
+      <p>Phone: +91-1234567890</p>
+    </div>
+  </section>
+    <footer>
+    <div class="container">
+      <p>&copy; 2025 DocSathi. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

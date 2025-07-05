@@ -1,0 +1,515 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Rajesh Kumar",
+      "specialization": "cardiologist",
+      "city": "delhi",
+      "experience": "15 years",
+      "hospital": "All India Institute of Medical Sciences (AIIMS)",
+      "phone": "+91-9876543210",
+      "email": "rajesh.kumar@aiims.edu"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Priya Sharma",
+      "specialization": "dermatologist",
+      "city": "mumbai",
+      "experience": "12 years",
+      "hospital": "Kokilaben Dhirubhai Ambani Hospital",
+      "phone": "+91-9876543211",
+      "email": "priya.sharma@kdah.com"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Amit Patel",
+      "specialization": "pediatrician",
+      "city": "bangalore",
+      "experience": "10 years",
+      "hospital": "Fortis Hospital",
+      "phone": "+91-9876543212",
+      "email": "amit.patel@fortis.com"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Sunita Menon",
+      "specialization": "neurologist",
+      "city": "chennai",
+      "experience": "18 years",
+      "hospital": "Apollo Hospital",
+      "phone": "+91-9876543213",
+      "email": "sunita.menon@apollo.com"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Vikram Singh",
+      "specialization": "orthopedic",
+      "city": "kolkata",
+      "experience": "14 years",
+      "hospital": "AMRI Hospital",
+      "phone": "+91-9876543214",
+      "email": "vikram.singh@amri.com"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Kavita Reddy",
+      "specialization": "gynecologist",
+      "city": "hyderabad",
+      "experience": "16 years",
+      "hospital": "Yashoda Hospital",
+      "phone": "+91-9876543215",
+      "email": "kavita.reddy@yashoda.com"
+    },
+    {
+      "id": 7,
+      "name": "Dr. Arjun Gupta",
+      "specialization": "psychiatrist",
+      "city": "pune",
+      "experience": "11 years",
+      "hospital": "Ruby Hall Clinic",
+      "phone": "+91-9876543216",
+      "email": "arjun.gupta@rubyhall.com"
+    },
+    {
+      "id": 8,
+      "name": "Dr. Meera Joshi",
+      "specialization": "general",
+      "city": "ahmedabad",
+      "experience": "9 years",
+      "hospital": "Sterling Hospital",
+      "phone": "+91-9876543217",
+      "email": "meera.joshi@sterling.com"
+    },
+    {
+      "id": 9,
+      "name": "Dr. Rohit Agarwal",
+      "specialization": "cardiologist",
+      "city": "jaipur",
+      "experience": "13 years",
+      "hospital": "Narayana Multispeciality Hospital",
+      "phone": "+91-9876543218",
+      "email": "rohit.agarwal@narayana.com"
+    },
+    {
+      "id": 10,
+      "name": "Dr. Neha Srivastava",
+      "specialization": "dermatologist",
+      "city": "lucknow",
+      "experience": "8 years",
+      "hospital": "Sahara Hospital",
+      "phone": "+91-9876543219",
+      "email": "neha.srivastava@sahara.com"
+    },
+    {
+      "id": 11,
+      "name": "Dr. Sanjay Mehta",
+      "specialization": "cardiologist",
+      "city": "mumbai",
+      "experience": "20 years",
+      "hospital": "Jaslok Hospital",
+      "phone": "+91-9876543220",
+      "email": "sanjay.mehta@jaslok.com"
+    },
+    {
+      "id": 12,
+      "name": "Dr. Anita Desai",
+      "specialization": "pediatrician",
+      "city": "delhi",
+      "experience": "17 years",
+      "hospital": "Fortis Escorts Heart Institute",
+      "phone": "+91-9876543221",
+      "email": "anita.desai@fortis.com"
+    },
+    {
+      "id": 13,
+      "name": "Dr. Ravi Krishnan",
+      "specialization": "neurologist",
+      "city": "bangalore",
+      "experience": "16 years",
+      "hospital": "Manipal Hospital",
+      "phone": "+91-9876543222",
+      "email": "ravi.krishnan@manipal.com"
+    },
+    {
+      "id": 14,
+      "name": "Dr. Deepa Nair",
+      "specialization": "gynecologist",
+      "city": "chennai",
+      "experience": "14 years",
+      "hospital": "Fortis Malar Hospital",
+      "phone": "+91-9876543223",
+      "email": "deepa.nair@fortis.com"
+    },
+    {
+      "id": 15,
+      "name": "Dr. Ashok Banerjee",
+      "specialization": "orthopedic",
+      "city": "kolkata",
+      "experience": "19 years",
+      "hospital": "Belle Vue Clinic",
+      "phone": "+91-9876543224",
+      "email": "ashok.banerjee@bellevue.com"
+    },
+    {
+      "id": 16,
+      "name": "Dr. Lakshmi Iyer",
+      "specialization": "dermatologist",
+      "city": "hyderabad",
+      "experience": "13 years",
+      "hospital": "KIMS Hospital",
+      "phone": "+91-9876543225",
+      "email": "lakshmi.iyer@kims.com"
+    },
+    {
+      "id": 17,
+      "name": "Dr. Manish Agarwal",
+      "specialization": "psychiatrist",
+      "city": "pune",
+      "experience": "15 years",
+      "hospital": "Deenanath Mangeshkar Hospital",
+      "phone": "+91-9876543226",
+      "email": "manish.agarwal@dmh.com"
+    },
+    {
+      "id": 18,
+      "name": "Dr. Swati Shah",
+      "specialization": "general",
+      "city": "ahmedabad",
+      "experience": "12 years",
+      "hospital": "Apollo Hospital",
+      "phone": "+91-9876543227",
+      "email": "swati.shah@apollo.com"
+    },
+    {
+      "id": 19,
+      "name": "Dr. Vinod Sharma",
+      "specialization": "cardiologist",
+      "city": "jaipur",
+      "experience": "22 years",
+      "hospital": "SMS Hospital",
+      "phone": "+91-9876543228",
+      "email": "vinod.sharma@sms.com"
+    },
+    {
+      "id": 20,
+      "name": "Dr. Rekha Verma",
+      "specialization": "pediatrician",
+      "city": "lucknow",
+      "experience": "11 years",
+      "hospital": "King George's Medical University",
+      "phone": "+91-9876543229",
+      "email": "rekha.verma@kgmu.edu"
+    },
+    {
+      "id": 21,
+      "name": "Dr. Suresh Rao",
+      "specialization": "neurologist",
+      "city": "mumbai",
+      "experience": "25 years",
+      "hospital": "Hinduja Hospital",
+      "phone": "+91-9876543230",
+      "email": "suresh.rao@hinduja.com"
+    },
+    {
+      "id": 22,
+      "name": "Dr. Nisha Gupta",
+      "specialization": "gynecologist",
+      "city": "delhi",
+      "experience": "18 years",
+      "hospital": "Max Super Speciality Hospital",
+      "phone": "+91-9876543231",
+      "email": "nisha.gupta@max.com"
+    },
+    {
+      "id": 23,
+      "name": "Dr. Kiran Jain",
+      "specialization": "orthopedic",
+      "city": "bangalore",
+      "experience": "21 years",
+      "hospital": "Columbia Asia Hospital",
+      "phone": "+91-9876543232",
+      "email": "kiran.jain@columbia.com"
+    },
+    {
+      "id": 24,
+      "name": "Dr. Radhika Pillai",
+      "specialization": "dermatologist",
+      "city": "chennai",
+      "experience": "16 years",
+      "hospital": "Global Hospital",
+      "phone": "+91-9876543233",
+      "email": "radhika.pillai@global.com"
+    },
+    {
+      "id": 25,
+      "name": "Dr. Subrata Das",
+      "specialization": "psychiatrist",
+      "city": "kolkata",
+      "experience": "20 years",
+      "hospital": "Institute of Psychiatry",
+      "phone": "+91-9876543234",
+      "email": "subrata.das@iop.com"
+    },
+    {
+      "id": 26,
+      "name": "Dr. Madhavi Reddy",
+      "specialization": "general",
+      "city": "hyderabad",
+      "experience": "14 years",
+      "hospital": "Continental Hospital",
+      "phone": "+91-9876543235",
+      "email": "madhavi.reddy@continental.com"
+    },
+    {
+      "id": 27,
+      "name": "Dr. Anil Kulkarni",
+      "specialization": "cardiologist",
+      "city": "pune",
+      "experience": "17 years",
+      "hospital": "Sahyadri Hospital",
+      "phone": "+91-9876543236",
+      "email": "anil.kulkarni@sahyadri.com"
+    },
+    {
+      "id": 28,
+      "name": "Dr. Bharti Patel",
+      "specialization": "pediatrician",
+      "city": "ahmedabad",
+      "experience": "13 years",
+      "hospital": "Zydus Hospital",
+      "phone": "+91-9876543237",
+      "email": "bharti.patel@zydus.com"
+    },
+    {
+      "id": 29,
+      "name": "Dr. Manoj Goyal",
+      "specialization": "neurologist",
+      "city": "jaipur",
+      "experience": "19 years",
+      "hospital": "Eternal Hospital",
+      "phone": "+91-9876543238",
+      "email": "manoj.goyal@eternal.com"
+    },
+    {
+      "id": 30,
+      "name": "Dr. Shilpa Srivastava",
+      "specialization": "gynecologist",
+      "city": "lucknow",
+      "experience": "15 years",
+      "hospital": "Medanta Hospital",
+      "phone": "+91-9876543239",
+      "email": "shilpa.srivastava@medanta.com"
+    },
+    {
+      "id": 31,
+      "name": "Dr. Nisha Verma",
+      "specialization": "dermatologist",
+      "city": "delhi",
+      "hospital": "SkinCure Clinic",
+      "experience": "8 years",
+      "phone": "9876543210",
+      "email": "nisha.verma@example.com"
+    },
+    {
+      "id": 32,
+      "name": "Dr. Arjun Mehta",
+      "specialization": "neurologist",
+      "city": "delhi",
+      "hospital": "BrainCare Hospital",
+      "experience": "11 years",
+      "phone": "9823456789",
+      "email": "arjun.mehta@example.com"
+    },
+    {
+      "id": 33,
+      "name": "Dr. Kavita Rathi",
+      "specialization": "orthopedic",
+      "city": "delhi",
+      "hospital": "OrthoPlus Centre",
+      "experience": "9 years",
+      "phone": "9811122334",
+      "email": "kavita.rathi@example.com"
+    },
+    {
+      "id": 34,
+      "name": "Dr. Ramesh Sinha",
+      "specialization": "psychiatrist",
+      "city": "delhi",
+      "hospital": "Delhi Mind Clinic",
+      "experience": "14 years",
+      "phone": "9900123456",
+      "email": "ramesh.sinha@example.com"
+    },
+    {
+      "id": 35,
+      "name": "Dr. Meena Joshi",
+      "specialization": "general",
+      "city": "delhi",
+      "hospital": "City Health Clinic",
+      "experience": "6 years",
+      "phone": "9988776655",
+        "email": "meena.joshi@example.com"
+      },
+      {
+      "id": 36,
+      "name": "Dr. Rajeev Kumar",
+      "specialization": "cardiologist",
+      "city": "patna",
+      "hospital": "HeartCare Hospital",
+      "experience": "15 years",
+      "phone": "9123456780",
+      "email": "rajeev.kumar@heartcare.com"
+    },
+    {
+      "id":37,
+      "name": "Dr. Sneha Singh",
+      "specialization": "neurologist",
+      "city": "patna",
+      "hospital": "NeuroPlus Clinic",
+      "experience": "10 years",
+      "phone": "9876543210",
+      "email": "sneha.singh@neuroplus.com"
+    },
+    {
+      "id":38,
+      "name": "Dr. Avinash Tiwari",
+      "specialization": "pediatrician",
+      "city": "patna",
+      "hospital": "ChildCare Hospital",
+      "experience": "8 years",
+      "phone": "9834567890",
+      "email": "avinash.tiwari@childcare.com"
+    },
+    {
+      "id":39,
+      "name": "Dr. Neha Prasad",
+      "specialization": "general",
+      "city": "patna",
+      "hospital": "City Health Clinic",
+      "experience": "6 years",
+      "phone": "9811122334",
+      "email": "neha.prasad@cityhealth.com"
+    },
+    {
+      "id":40,
+      "name": "Dr. Sanjay Ranjan",
+      "specialization": "dermatologist",
+      "city": "patna",
+      "hospital": "SkinGlow Clinic",
+      "experience": "9 years",
+      "phone": "9900112233",
+      "email": "sanjay.ranjan@skinglow.com"
+    },
+    {
+      "id":41,
+      "name": "Dr. Anjali Mishra",
+      "specialization": "orthopedic",
+      "city": "patna",
+      "hospital": "OrthoCare Centre",
+      "experience": "11 years",
+      "phone": "9887766554",
+      "email": "anjali.mishra@orthocare.com"
+    },
+    {
+      "id":42,
+      "name": "Dr. Poonam Kumari",
+      "specialization": "gynecologist",
+      "city": "patna",
+      "hospital": "Motherhood Clinic",
+      "experience": "13 years",
+      "phone": "9798554433",
+      "email": "poonam.kumari@motherhood.com"
+    },
+    {
+      "id":43,
+      "name": "Dr. Alok Sinha",
+      "specialization": "psychiatrist",
+      "city": "patna",
+      "hospital": "Mind Wellness Centre",
+      "experience": "12 years",
+      "phone": "9123467890",
+      "email": "alok.sinha@mindwellness.com"
+    },
+     {
+      "id": 44,
+      "name": "Dr. Rakesh Agrawal",
+      "specialization": "cardiologist",
+      "city": "bhopal",
+      "hospital": "Bhopal Heart Institute",
+      "experience": "14 years",
+      "phone": "9112233445",
+      "email": "rakesh.agrawal@bhi.com"
+    },
+    {
+      "id": 45,
+      "name": "Dr. Swati Jain",
+      "specialization": "neurologist",
+      "city": "bhopal",
+      "hospital": "NeuroLife Hospital",
+      "experience": "10 years",
+      "phone": "9223344556",
+      "email": "swati.jain@neurolife.com"
+    },
+    {
+      "id": 46,
+      "name": "Dr. Manish Sharma",
+      "specialization": "pediatrician",
+      "city": "bhopal",
+      "hospital": "Children's Care Hospital",
+      "experience": "9 years",
+      "phone": "9334455667",
+      "email": "manish.sharma@childcare.com"
+    },
+    {
+      "id": 47,
+      "name": "Dr. Aarti Joshi",
+      "specialization": "general",
+      "city": "bhopal",
+      "hospital": "HealthFirst Clinic",
+      "experience": "6 years",
+      "phone": "9445566778",
+      "email": "aarti.joshi@healthfirst.com"
+    },
+    {
+      "id": 48,
+      "name": "Dr. Deepak Meena",
+      "specialization": "dermatologist",
+      "city": "bhopal",
+      "hospital": "SkinCare Point",
+      "experience": "8 years",
+      "phone": "9556677889",
+      "email": "deepak.meena@skincare.com"
+    },
+    {
+      "id": 49,
+      "name": "Dr. Ritu Verma",
+      "specialization": "orthopedic",
+      "city": "bhopal",
+      "hospital": "BoneFix Hospital",
+      "experience": "12 years",
+      "phone": "9667788990",
+      "email": "ritu.verma@bonefix.com"
+    },
+    {
+      "id": 50,
+      "name": "Dr. Anuja Saxena",
+      "specialization": "gynecologist",
+      "city": "bhopal",
+      "hospital": "WombCare Hospital",
+      "experience": "11 years",
+      "phone": "9778899001",
+      "email": "anuja.saxena@wombcare.com"
+    },
+    {
+      "id": 51,
+      "name": "Dr. Karan Pathak",
+      "specialization": "psychiatrist",
+      "city": "bhopal",
+      "hospital": "MindEase Clinic",
+      "experience": "13 years",
+      "phone": "9889900112",
+      "email": "karan.pathak@mindease.com"
+    }
+    
+  ]
+}
