@@ -18,7 +18,7 @@ class DoctorSearch {
 
     async loadDoctors() {
         try {
-            const response = await fetch(https://raw.githubusercontent.com/Nikhil07092006/DocSathi/main/doctors.json);
+            const response = await fetch("https://raw.githubusercontent.com/Nikhil07092006/DocSathi/main/doctors.json");
             if (!response.ok) throw new Error("Failed to load doctors");
             const data = await response.json();
             this.doctors = data.doctors;
