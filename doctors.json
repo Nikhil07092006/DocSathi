@@ -509,6 +509,16 @@
       "experience": "13 years",
       "phone": "9889900112",
       "email": "karan.pathak@mindease.com"
+    },
+      {
+      "id": 52,
+      "name": "Dr. Rakesh Kumar Singh",
+      "specialization": "cardiologist",
+      "city": "patna",
+      "hospital": "Paras HMRI Hospital, Patna",
+      "experience": "20 years",
+      "phone": "9123458780",
+      "email": "drrakesh.cardio@hospitalmail.com"
     }
     
   ]
